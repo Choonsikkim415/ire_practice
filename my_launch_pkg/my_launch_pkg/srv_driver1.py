@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""사각형 경로 순찰 로봇 turtlesim."""
+"""사각형 경로 순찰 로봇 turtlesim"""
 
 
 import math

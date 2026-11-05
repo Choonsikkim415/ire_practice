@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""3주차 강의 예제 — chatter를 받아 출력하는 subscriber."""
+"""반갑습니다! 인사를 받는 listener"""
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String

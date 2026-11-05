@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""3주차 강의 예제 — 1초마다 인사하는 publisher."""
+"""안녕하세요! 인사를 하는 talker"""
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String

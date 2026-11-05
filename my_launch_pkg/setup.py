@@ -17,9 +17,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='kjs',
+    maintainer='Jun-Sik Kim',
     maintainer_email='doduck101@gmail.com',
-    description='TODO: Package description',
+    description='ROS2 연습용 패키지 — launch',
     license='Apache-2.0',
     entry_points={
         'console_scripts': [

@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
-"""4주차 강의 예제 — start_stop 서비스의 파이썬 클라이언트.
+"""강의 예제 — client"""
 
-circle_driver(서버)를 켜둔 상태에서 실행하면 3초마다 켜기/끄기를 반복합니다.
-  터미널1: ros2 run ire_week04_service_launch circle_driver
-  터미널2: ros2 run ire_week04_service_launch start_stop_client
-CLI 클라이언트와 같은 일을 코드로 하는 것:
-  ros2 service call /start_stop std_srvs/srv/SetBool "{data: true}"
-"""
 import rclpy
 from rclpy.node import Node
 from std_srvs.srv import SetBool

@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='kjs',
-    maintainer_email='kjs@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Jun-Sik Kim',
+    maintainer_email='doduck101@gmail.com',
+    description='ROS2 연습용 패키지',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
